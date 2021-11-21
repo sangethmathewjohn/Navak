@@ -420,6 +420,36 @@ h1, h2, h3, h4, h5, h6 {
     background-attachment: fixed;
   }
 }
+@media (max-width: 450px) and (min-width: 370px) {
+  #hero {
+    background-attachment: fixed;
+    background: url(../img/navak450370px.gif) top center;
+    }
+}
+@media (min-width: 650px) and (max-width:780px) {
+  #hero {
+      background-attachment: fixed;
+      background: url(../img/navak650780px.gif) top center;
+      }
+}
+@media (min-width: 590px) and (max-width:650px) {
+  #hero {
+      background-attachment: fixed;
+      background: url(../img/navak590650px.gif) top center;
+      }
+}
+@media (min-width: 450px) and (max-width:590px) {
+  #hero {
+      background-attachment: fixed;
+      background: url(../img/navak450590px.gif) top center;
+      }
+}
+@media (max-width: 370px) {
+  #hero {
+      background-attachment: fixed;
+      background: url(../img/navak370px.gif) top center;
+      }
+}
 #hero:before {
   content: "";
   background: rgba(6, 12, 34, 0.8);
